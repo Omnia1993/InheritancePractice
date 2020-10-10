@@ -31,7 +31,6 @@ namespace Inheritance
                     Transaction newAccount = new Transaction(balance, "New Account Opened: " + accountName, true);
                     transactions.Add(newAccount);
                 }
-
                 //  Deposit we can add money to the account
                 public decimal Deposit(decimal amount)
                 {
